@@ -51,7 +51,7 @@ while (count < 5){
     if (count == 4){
         document.getElementById("second_container").innerHTML += 
     
-        "<div class='navbuttons'>" + "<a href='../pages/portofolio.html'>"  + menuItems[count] +  "</a></div>" //maakt een portofolio knop de in het element second_container wordt gezet.
+        "<div class='navbuttons'>" + "<a href='../pages/portfolio.html'>"  + menuItems[count] +  "</a></div>" //maakt een portofolio knop de in het element second_container wordt gezet.
     }
 
     count += 1
@@ -105,7 +105,7 @@ if (open == false){ //kijkt of het navigatieframe open of dicht is.
                 console.log("hi") //checkt of het laatste element wordt ingeladen
                 document.getElementById("fourth_container").innerHTML += 
             
-                "<div class='navbuttons' id='navbuttons'>" + "<a href='../pages/portofolio.html'>"  + menuItems[count] +  "</a></div>"; //maakt een portofolio knop de in het element fourth_container wordt gezet.
+                "<div class='navbuttons' id='navbuttons'>" + "<a href='../pages/portfolio.html'>"  + menuItems[count] +  "</a></div>"; //maakt een portofolio knop de in het element fourth_container wordt gezet.
                 
                 console.log("hi") //geeft aan dat het inladen van het laatste is gelukt
 
